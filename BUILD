@@ -6,6 +6,6 @@ py_binary(
     main = "main.py",
     deps = [
         # This takes the name as specified in requirements.txt
-	    requirement("requests"),
-    ]
+        requirement("requests"),
+    ],
 )
