@@ -9,3 +9,11 @@ py_binary(
         requirement("requests"),
     ],
 )
+
+py_test(
+    name = "main_test",
+    srcs = ["main_test.py"],
+    deps = [
+        ":main",
+    ],
+)
